@@ -1,5 +1,7 @@
 import sys
 import logging
+from datetime import datetime
+from src.logger import logging
 
 def error_message_details(error):
     print(f"Error: {error}")
@@ -20,9 +22,9 @@ class CustomError(Exception):
     def __str__(self) -> str:
         return self.error_message
     
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     try:
         a=1/0
     except:
         logging.info("Divide by zero error")
-        raise CustomError(sys.exc_info())'''
+        raise CustomError(sys.exc_info())

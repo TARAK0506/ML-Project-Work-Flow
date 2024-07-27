@@ -13,11 +13,11 @@ logging.basicConfig(
     level=logging.INFO,
     datefmt='%Y-%m-%d %H:%M:%S')
 
-'''if __name__ == "__main__":
+if __name__ == "__main__":
     logging.info("This is a test log message")
     logging.error("This is an error log message")
     logging.warning("This is a warning log message")
     logging.debug("This is a debug log message")
     logging.critical("This is a critical log message")
-    logging.exception("This is an exception log message")'''
+    logging.exception("This is an exception log message")
 
